@@ -140,6 +140,34 @@ ul {
   color: var(--accent-color);
 }
 
+.menu-link {
+  position: relative;
+}
+
+.menu-link::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  display: block;
+  height: 4px;
+  bottom: -1px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  opacity: 0;
+}
+.menu-link:after {
+  opacity: 0;
+}
+
+.current::after {
+  opacity: 1;
+}
+
+.menu-link:hover::after,
+.menu-link:focus::after {
+  opacity: 1;
+}
+
 /*Contacts*/
 .contacts {
   display: inline-flex;
