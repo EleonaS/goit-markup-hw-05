@@ -114,6 +114,7 @@ ul {
 .menu {
   display: inline-flex;
 }
+
 .menu .link {
   display: block;
   padding-top: 32px;
@@ -158,6 +159,7 @@ ul {
   border-radius: 2px;
   opacity: 0;
 }
+
 .menu-link:after {
   opacity: 0;
 }
@@ -717,4 +719,12 @@ ul {
 
   font-size: 18px;
   line-height: 1.56;
+}
+
+.close {
+  display: block;
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  background-image: url(../images/icons/icons.svg#close.svg);
 }
