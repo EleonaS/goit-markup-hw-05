@@ -703,6 +703,7 @@ img {
 }
 
 .work-title {
+  color: var(--primary-text-color);
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -785,7 +786,7 @@ img {
   background-color: var(--primary-bg-color);
   border-radius: 4px;
 
-  transition: transform var(--transition-duration) var(--timing-function);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .close-black {
